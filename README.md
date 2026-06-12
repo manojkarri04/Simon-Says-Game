@@ -1,6 +1,10 @@
-# Simon Says Game
+# 🟢🔴 Simon Says Game 🟡🔵
 
 A simple, interactive web-based **Simon Says** game built using HTML, CSS, and Vanilla JavaScript. Test your memory by following an ever-increasing sequence of colors and patterns.
+
+**🌐 Live Demo:** [Play the Simon Says Game Here!](https://manojkarri04.github.io/Simon-Says-Game/)
+
+---
 
 ## 🎮 How to Play
 
@@ -15,13 +19,10 @@ A simple, interactive web-based **Simon Says** game built using HTML, CSS, and V
 ## 🚀 Features
 
 * **Dynamic Leveling:** The game tracks your current level and increases difficulty as you progress.
-* **Visual Feedback:**
-* **Game Flash:** Buttons flash white when the computer generates a sequence.
-* **User Flash:** Buttons flash green when clicked by the user.
-* **Error Alert:** The entire background flashes red upon losing.
-
-
-* **Scoring System:** Your final score is displayed at the end of each session ().
+* **Game Flash Feedback:** Buttons flash white when the computer generates a sequence.
+* **User Flash Feedback:** Buttons flash green when clicked by the user to confirm the input.
+* **Error Alert:** The entire background flashes red upon losing the game.
+* **Scoring System:** Your final score is calculated and displayed at the end of each session.
 * **Responsive Design:** A clean, centered UI with distinct color-coded buttons.
 
 ---
@@ -37,7 +38,7 @@ A simple, interactive web-based **Simon Says** game built using HTML, CSS, and V
 
 ## 📂 File Structure
 
-* `simon.html`: The main entry point containing the game markup.
+* `simon.html`: The main entry point containing the game markup. (Note: This must be named `index.html` for GitHub Pages deployment).
 * `simon.css`: Contains the styling for the buttons, layout, and flash animations.
 * `simon.js`: The "brain" of the game handling the logic and user interactions.
 
@@ -45,6 +46,8 @@ A simple, interactive web-based **Simon Says** game built using HTML, CSS, and V
 
 ## 📝 Setup Instructions
 
-1. Download or clone the repository containing `simon.html`, `simon.css`, and `simon.js`.
+If you want to download and run this game locally on your own machine:
+
+1. Download or clone the repository containing the HTML, CSS, and JS files.
 2. Ensure all three files are in the same folder.
-3. Open `simon.html` in any modern web browser (Chrome, Firefox, Edge, etc.).
+3. Open the main HTML file in any modern web browser (Chrome, Firefox, Edge, etc.).
