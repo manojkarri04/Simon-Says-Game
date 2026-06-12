@@ -15,6 +15,7 @@ body
     border : 10px solid black;  
     margin: 2.5rem;
     cursor: pointer;
+   
   }
 .flash
 {
@@ -24,21 +25,33 @@ body
 {
     background-color: red;
     border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .purple
 {
     background-color: purple;
     border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .green
 {
     background-color: green;
     border-radius: 20px;
+     display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .yellow
 {
     background-color: yellow;
     border-radius: 20px;
+     display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .userFlash
