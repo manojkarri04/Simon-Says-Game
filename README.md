@@ -6,6 +6,15 @@ A simple, interactive web-based **Simon Says** game built using HTML, CSS, and V
 
 ---
 
+## 🧠 About This Project
+
+This game was developed specifically as a **practice and learning exercise**. As an aspiring developer, I built this project to strengthen my core programming fundamentals before moving on to more complex full-stack frameworks. It serves as a practical application of:
+* Direct DOM manipulation.
+* Event listeners and user input handling.
+* Array-based state management and sequence validation using Vanilla JavaScript.
+
+---
+
 ## 🎮 How to Play
 
 1. **Start the Game:** Press any key on your keyboard or click anywhere on the screen to begin.
@@ -31,23 +40,4 @@ A simple, interactive web-based **Simon Says** game built using HTML, CSS, and V
 
 * **HTML5:** Structure of the game board and headings.
 * **CSS3:** Styling for the circular buttons, animations, and flexbox layout.
-* **JavaScript (Vanilla):** Game logic, event listeners, sequence generation, and DOM manipulation.
-* **FontAwesome:** Integrated for icon support.
-
----
-
-## 📂 File Structure
-
-* `simon.html`: The main entry point containing the game markup. (Note: This must be named `index.html` for GitHub Pages deployment).
-* `simon.css`: Contains the styling for the buttons, layout, and flash animations.
-* `simon.js`: The "brain" of the game handling the logic and user interactions.
-
----
-
-## 📝 Setup Instructions
-
-If you want to download and run this game locally on your own machine:
-
-1. Download or clone the repository containing the HTML, CSS, and JS files.
-2. Ensure all three files are in the same folder.
-3. Open the main HTML file in any modern web browser (Chrome, Firefox, Edge, etc.).
+* **JavaScript (Vanilla):** Game logic, sequence generation, and state tracking.
